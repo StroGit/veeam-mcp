@@ -1,0 +1,24 @@
+{
+  "name": "ovhcloud-backup-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "mcp-server.js",
+  "description": "MCP Server pour gérer les backups OVHcloud et VSPC Veeam",
+  "scripts": {
+    "start": "node mcp-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.24.0"
+  },
+  "keywords": [
+    "mcp",
+    "veeam",
+    "ovhcloud",
+    "backup"
+  ],
+  "author": "",
+  "license": "MIT"
+}
